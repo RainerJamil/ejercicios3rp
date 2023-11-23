@@ -69,6 +69,7 @@ public class Curso {
 
         return estudiantes.size() > 0 ? sumaNotas / estudiantes.size() : 0;
     }
+
     public int obtenerCantidadAprobados() {
         int cantidadAprobados = 0;
         for (Estudiante e : estudiantes) {
@@ -76,6 +77,7 @@ public class Curso {
                 cantidadAprobados++;
             }
         }
+
         return cantidadAprobados;
     }
     public double porcentajesAprobados(){
